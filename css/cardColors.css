@@ -1,0 +1,107 @@
+.normalfondo {
+  background-image: url(/css/gifs/normal.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.firefondo {
+  background-image: url(/css/gifs/fire.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.waterfondo {
+  background-image: url(/css/gifs/water.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.electricfondo {
+  background-image: url(/css/gifs/electric.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.grassfondo {
+  background-image: url(/css/gifs/grass.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.icefondo {
+  background-image: url(/css/gifs/ice.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.fightingfondo {
+  background-image: url(/css/gifs/fight.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.poisonfondo {
+  background-image: url(/css/gifs/poison.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.groundfondo {
+  background-image: url(/css/gifs/ground.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.flyingfondo {
+  background-image: url(/css/gifs/flight.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.psychicfondo {
+  background-image: url(/css/gifs/psique.gif);
+  background-position: center;
+  background-size: auto;
+}
+
+.bugfondo {
+  background-image: url(/css/gifs/bug.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.rockfondo {
+  background-image: url(/css/gifs/rock.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.ghostfondo {
+  background-image: url(/css/gifs/ghost.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.dragonfondo {
+  background-image: url(/css/gifs/dragon.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.darkfondo {
+  background-image: url(/css/gifs/dark.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.steelfondo {
+  background-image: url(/css/gifs/steel.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.fairyfondo {
+  background-image: url(/css/gifs/fairy.gif);
+  background-position: center;
+  background-size: cover;
+}

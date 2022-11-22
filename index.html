@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+      integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <script src="/js/main.js" defer></script>
+    <script src="/js/animations.js" defer></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="/css/pics/pokeball.png" />
+    <title>Pokedex | ON</title>
+  </head>
+  <body>
+    <div class="first"></div>
+    <div class="second"></div>
+    <img class="ball" src="/css/pics/pokeball.png" />
+    <h1 class="text">Press the pokeball to start</h1>
+    <header>
+      <audio src="css/audio/1-01. Opening.mp3" autoplay loop></audio>
+      <img src="css/icons/soundOn.svg" alt="sound" class="musicBtnPlay" />
+      <img src="/css/pics/pokedex.webp" alt="logo" />
+      <form class="form" name="pokeForm">
+        <input type="text" name="pokeSearch" placeholder="Pokemon search" />
+        <button class="pokeBtn" name="pokeBtn">
+          <img
+            class="pokeball"
+            src="/css/pics/pokeball.png"
+            alt="pokeball button"
+          />
+        </button>
+      </form>
+    </header>
+    <main>
+      <h2 class="listed-pokemon"></h2>
+      <ul class="pokeList"></ul>
+    </main>
+    <footer>
+      <h3>&copy All rights reserved</h3>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "mod3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/blueoceanstart/hack-a-boss/jsb13co/mod3-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/blueoceanstart/hack-a-boss/jsb13co/mod3-js/issues"
+  },
+  "homepage": "https://gitlab.com/blueoceanstart/hack-a-boss/jsb13co/mod3-js#readme",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "prettier": "^2.7.1"
+  }
+}
