@@ -266,18 +266,41 @@ ul.pokeList {
   font-size: 0.8rem;
 }
 
-/*FOOTER*/
+/**#############################################################################
+ * ##################################FOOTER#####################################
+ * #############################################################################
+ */
 footer {
   width: 100%;
   text-align: center;
-  font-size: 0.8rem;
-  padding: 1.5rem 1rem;
+  font-size: 0.6rem;
+  padding: 0.8rem;
   background: rgba(255, 255, 255, 0.31);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4.5px);
   -webkit-backdrop-filter: blur(4.5px);
   border: 1px solid rgba(255, 255, 255, 0.29);
 }
+
+footer > p {
+  font-size: 0.6rem;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+footer > a {
+  /* position: absolute; */
+  cursor: pointer;
+}
+
+footer > a > img {
+  width: 2rem;
+}
+
+/**#############################################################################
+ * ##########################LOADERS AND ANIMATIONS#############################
+ * #############################################################################
+ */
 
 /*LOADER*/
 .loader-container {
@@ -385,6 +408,16 @@ footer {
   .text {
     width: 70%;
   }
+
+  footer > a {
+    position: absolute;
+    right: 0.8rem;
+    bottom: 0.8rem;
+  }
+
+  footer > a > img {
+    width: 2.5rem;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -396,11 +429,6 @@ footer {
 
   header > form {
     align-self: flex-end;
-  }
-
-  .banner {
-    display: block;
-    width: 100%;
   }
 
   .text {
